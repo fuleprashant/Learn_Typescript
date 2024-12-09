@@ -1,4 +1,4 @@
-// in this Lecture we learnt what is the 1) unioun 2) 
+// in this Lecture we learnt what is the 1) unioun 2)  Literal types 3) Type alias
 
 // Union ----- Union types in TypeScript allow you to specify that a variable, function parameter, or return type can be one of multiple types. This is useful when a value can belong to more than one type, making your code flexible while maintaining type safety.
 
@@ -301,7 +301,7 @@
   
   type TechLead = Developer & Manager;
   
-  const lead: TechLead = {
+  const leads: TechLead = {
     skills: ["TypeScript", "React"],
     teamSize: 5,
   };

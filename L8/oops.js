@@ -3,7 +3,7 @@
 // 1. Encapsulation
 // --> Encapsulaion is the concrept of building data and methods that oprate the data into the singleuni or in a single class . it also refers to restricting direct access to some of an object component , which can be done by the private variables
 {
-    /*
+  /*
       class Car {
         brand: string;
         model: string;
@@ -64,7 +64,7 @@
 // --> Abstraction is the concept of hiding the complex implementation details and showing only the essential features of an object. This allows the user to interact with an object without knowing its internal workings.
 // -->
 {
-    /*
+  /*
       class BankAccounts {
         accountNumber: number;
         balance: number;
@@ -105,7 +105,7 @@
 // 3)).. Inheritance
 // --> Inheritance allows a new class (child class) to inherit properties and methods from an existing class (parent class). It promotes code reuse and creates a hierarchical class structure.
 {
-    /*
+  /*
       class Animals {
         name: string;
         species: string;
@@ -145,7 +145,7 @@
 // 4. Polymorphism
 // --> Polymorphism means the ability of a function, object, or method to take on multiple forms. In JavaScript, this can be achieved via method overriding or method overloading
 {
-    /*
+  /*
   
       class shape {
         draw(): void {
@@ -176,3 +176,4 @@
 //  explaination about the polymorphisam
 // --> Polymorphism allows objects of different classes (e.g., Circle, Square) to use the same method (draw) but with different implementations.
 // --> This is also known as method overriding, where child classes provide their own implementation of a method defined in the parent class.
+
